@@ -70,6 +70,7 @@ export default function CategoryList(){
                 categories.map((category) =>{
                     return(
                     <CategoryCard
+                        key={category.name}
                         name={category.name}
                         viewers={category.viewers}
                         genre={category.genre}

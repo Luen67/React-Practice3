@@ -40,6 +40,7 @@ export default function StreamerList(){
                     return(
                         <Streamer 
                         avatar={streamer.avatar} 
+                        key={streamer.name}
                         name={streamer.name} 
                         description={streamer.description} 
                         viewers={streamer.viewers}/>
